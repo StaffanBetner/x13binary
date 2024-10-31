@@ -16,5 +16,5 @@ c             (based on lenght of month, starting period)
 c     PSP - maximum length of seasonal period  (formerly in model.cmn)
 c-----------------------------------------------------------------------
       INTEGER POBS,PLEN,PFCST,PYR1,PYRS,PSRSCR,PTD,PSP
-      PARAMETER(PSP=12,PFCST=10*PSP,PYR1=65,POBS=PYR1*PSP,PYRS=PYR1+20,
+      PARAMETER(PSP=12,PFCST=10*PSP,PYR1=131,POBS=PYR1*PSP,PYRS=PYR1+20,
      &          PLEN=POBS+(2*PFCST),PSRSCR=79,PTD=28)
